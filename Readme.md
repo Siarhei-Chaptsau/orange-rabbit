@@ -9,4 +9,4 @@
 
 ---
 
-Репозиторий создан для прохождения обучения на интенсивном курсе от [The Rolling Scopes school](https://school.rollingscopes.com) (от EPAM Systems).
+Репозиторий создан для прохождения обучения на интенсивном курсе от [The Rolling Scopes school](https://school.rollingscopes.com) (EPAM Systems).
