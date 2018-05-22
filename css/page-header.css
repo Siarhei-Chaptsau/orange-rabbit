@@ -1,0 +1,165 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  border-bottom: 1px solid #fcba50;
+}
+
+.page-header__wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 109px;
+  padding-bottom: 16px;
+  font-size: 0;  /* От пробелов в inline-blockах */
+}
+
+.page-header__logo-block {
+  display: inline-block;
+  float: left;
+  width: 255px;
+  height: 109px;
+  margin-left: 18px;
+}
+
+.page-header__logo-link {
+  text-decoration: none;
+  cursor: auto;
+  outline: none;
+  font-size: 0;
+}
+
+.page-header__image-logo {
+  display: inline-block;
+}
+
+.page-header__image-logo:hover {
+  animation-name: rabbit;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+}
+
+@keyframes rabbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.page-header__text {
+  display: inline-block;
+  width: 115px;
+  vertical-align: top;
+  outline: none;
+  padding-left: 48px;
+  padding-top: 17px;
+  line-height: 26px;
+  font-size: 37px;
+  color: #fb9c06;
+}
+
+.page-header__text--span {
+  padding-left: 0;
+  padding-top: 19px;
+  text-transform: uppercase;
+  font-size: 38px;
+  color: #6e6d6b;
+  font-weight: 700;
+  font-family: "bebasregular";
+}
+
+.page-header__text:hover > .page-header__text--span {
+  color: #fb9c06;
+  transform: translate(110px, -50px);
+}
+
+.page-header__nav-block {
+  display: inline-block;
+  float: right;
+  min-width: 440px;
+  margin: 15px 2% 25px;
+  font-size: 0;
+}
+
+.page-header__items {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.page-header__item {
+  display: inline-block;
+  margin: 0 auto;
+  margin-right: 12%;
+  vertical-align: top;
+  background-image: url("../img/spritesheet.png");
+  background-repeat: no-repeat;
+}
+
+.page-header__item:last-child  {
+  margin-right: 0;
+}
+
+.page-header__item--home {
+  width: 55px;
+  height: 47px;
+  background-position: -148px -5px;
+}
+
+.page-header__item--about {
+  width: 23px;
+  height: 44px;
+  background-position: -5px -5px;
+}
+
+.page-header__item--work {
+  width: 43px;
+  height: 43px;
+  background-position: -213px -5px
+}
+
+.page-header__item--blog {
+  width: 40px;
+  height: 40px;
+  background-position: -38px -5px;
+}
+
+.page-header__item--contact {
+  width: 50px;
+  height: 34px;
+  background-position: -88px -5px;
+}
+
+.page-header__link {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-decoration: none;
+  line-height: 26px;
+  font-size: 22px;
+  color: #9e9b9b;
+  cursor: auto;
+  box-sizing: border-box;
+}
+
+.page-header__link:hover {
+  color: #000000;
+}
+
+.page-header__item:hover {
+  background-image: url("../img/spritesheet-black.png");
+}
+
+.page-header__link:active {
+  color: #fcba50;
+}
+
+.page-header__item:active {
+  background-image: url("../img/spritesheet-orange.png");
+}

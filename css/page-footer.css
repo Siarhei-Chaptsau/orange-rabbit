@@ -1,0 +1,22 @@
+.page-footer {
+  height: 71px;
+  width: 100%;
+  background-color: #ff9c00;
+  box-shadow: 0 1px #e8920a,
+              0 3px #cc830f;
+}
+
+.page-footer {
+  margin: 0 auto;
+}
+
+.page-footer__text {
+  padding: 23px 0;
+  text-align: center;
+  font-family: 'StMarie-Thin';
+  font-size: 24px;
+  font-weight: 100;
+  word-spacing: 1px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}

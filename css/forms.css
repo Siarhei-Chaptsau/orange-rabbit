@@ -1,0 +1,85 @@
+.forms {
+  width: 100%;
+}
+
+.forms__wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  padding-top: 15px;
+}
+
+.forms__legend {
+  margin: 0 auto;
+  padding-bottom: 75px;
+  padding-left: 38px;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: 'StMarie-Thin';
+  font-weight: 100;
+  word-spacing: 0.5px;
+  letter-spacing: 0.9px;
+  line-height: 23px;
+  color: #ff9c00;
+}
+
+.forms__item {
+  width: 1200px;
+}
+
+.forms__title {
+  float: left;
+  clear: both;
+  padding-top: 6px;
+  font-size: 24px;
+  font-family: 'StMarie-Thin';
+  font-weight: 100;
+  line-height: 23px;
+  color: #fba216;
+}
+
+.forms__input {
+  margin-bottom: 35px;
+  width: 90%;
+  padding: 8px 10px;
+  float: right;
+  box-sizing: border-box;
+  outline: 0;
+  box-shadow: inset 5px -1px #d2d0cf;
+}
+
+.forms__input--message {
+  min-height: 90px;
+  margin-bottom: 25px;
+}
+
+.forms__btn {
+  display: block;
+  float: right;
+  width: 175px;
+  padding: 0 28px 7px 22px;
+  margin-right: 32px;
+  text-align: center;
+  border: 1px solid #fcb94f;
+  box-shadow: 0 1px #f6bb5c,
+              0 2px #cc830f,
+              0 1px #d3942f;
+  font-size: 30px;
+  font-family: 'StMarie-Thin';
+  font-weight: 100;
+  overflow: hidden;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #fb9c06;
+}﻿
+
+.forms__btn:hover {
+  background-color: #df8a03;
+}
+
+.forms__btn:active {
+  color: #fb9c06;
+  background-color: #ffffff;
+  outline: none;
+}

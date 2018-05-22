@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'bebasregular';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/bebas-webfont.woff2') format('woff2'),
+       url('../fonts/bebas-webfont.woff') format('woff');
+}﻿
+
+@font-face {
+  font-family: 'Open sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+       url('../fonts/opensans-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'StMarie-Thin';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../fonts/stmarie-thin-webfont.woff2') format('woff2'),
+       url('../fonts/stmarie-thin-webfont.woff') format('woff');
+}

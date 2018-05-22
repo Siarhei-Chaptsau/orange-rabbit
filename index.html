@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="css/style.css" rel="stylesheet">
+    <title>Orange rabbit</title>
+  </head>
+
+  <body>
+    <main class="content">
+      <header class="page-header">
+        <div class="page-header__wrapper">
+          <div class="page-header__logo-block">
+            <a class="page-header__logo-link" href="#">
+              <img class="page-header__image-logo" src="img/rabbit-logo.png" alt="logo">
+              <h1 class="page-header__text">orange
+              <span class="page-header__text  page-header__text--span">rabbit</span></h1>
+            </a>
+          </div>
+          <nav class="page-header__nav-block">
+            <ul class="page-header__items">
+              <li class="page-header__item  page-header__item--home">
+                <a class="page-header__link" href="#">home</a>
+              </li>
+              <li class="page-header__item  page-header__item--about">
+                <a class="page-header__link" href="#">about</a>
+              </li>
+              <li class="page-header__item  page-header__item--work">
+                <a class="page-header__link" href="#">work</a>
+              </li>
+              <li class="page-header__item  page-header__item--blog">
+                <a class="page-header__link" href="#">blog</a>
+              </li>
+              <li class="page-header__item  page-header__item--contact">
+                <a class="page-header__link" href="#">contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="page-title">
+        <div class="page-title__wrapper">
+          <p class="page-title__item">Do you like rabbits?</p>
+          <p class="page-title__item  page-title__item--orange">Do you like oranges?</p>
+        </div>
+      </section>
+
+      <section class="desc">
+        <div class="desc__wrapper">
+          <article class="desc__item">
+            <p class="desc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="desc__link" href="#">
+              <p class="desc__link-text">read more..</p>
+            </a>
+          </article>
+          <article class="desc__item">
+            <p class="desc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="desc__link" href="#">
+              <p class="desc__link-text">read more..</p>
+            </a>
+          </article>
+          <article class="desc__item">
+            <p class="desc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="desc__link" href="#">
+              <p class="desc__link-text">read more..</p>
+            </a>
+          </article>
+          <article class="desc__item">
+            <p class="desc__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="desc__link" href="#">
+              <p class="desc__link-text">read more..</p>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="team">
+        <div class="team__wrapper">
+          <h2 class="team__title">Meet the team</h2>
+          <figure class="team__item">
+            <figcaption class="team__name">Hoof<a class="team__name-span" href="#"> - Lead Designer</a></figcaption>
+            <a class="team__image-block" href="#">
+              <img class="team__image" src="img/horse.jpg" alt="designer">
+            </a>
+            <div class="team__container">
+              <p class="team__text">Hoof is our most talanted designer.  However he`s not the talkative type and I would advise not getting on the wrong side of him.</p>
+            </div>
+          </figure>
+          <figure class="team__item">
+            <figcaption class="team__name">Nibs<a class="team__name-span" href="#"> - CEO/Director</a></figcaption>
+            <a class="team__image-block" href="#">
+              <img class="team__image" src="img/rabbit.jpg" alt="director">
+            </a>
+            <div class="team__container">
+              <p class="team__text">Nibs is our go to woman. She’s the ceo/director of orange rabbit and runs fast when she has too.</p>
+            </div>
+          </figure>
+          <figure class="team__item">
+            <figcaption class="team__name">Squawk<a class="team__name-span" href="#"> - Developer</a></figcaption>
+            <a class="team__image-block" href="#">
+              <img class="team__image" src="img/straus.jpg" alt="developer">
+            </a>
+            <div class="team__container">
+              <p class="team__text">Squawk is no social bunny. But when it comes to programming he stands out from the crowd.</p>
+            </div>
+          </figure>
+        </div>
+      </section>
+
+      <form class="forms" method="post">
+        <div class="forms__wrapper">
+          <fieldset class="forms__items">
+            <legend class="forms__legend">Send us a message...</legend>
+            <label class="forms__item  forms__item--name" for="forms__name-id">
+              <span class="forms__title">Name:</span>
+              <input class="forms__input" id="forms__name-id" type="text" name="name" placeholder="Please enter your first name" required>
+            </label>
+            <label class="forms__item  forms__item--email" for="forms__email-id">
+              <span class="forms__title">Email:</span>
+              <input class="forms__input" id="forms__email-id" type="email" name="email" placeholder="Please enter your email" required>
+            </label>
+            <label class="forms__item  forms__item--message" for="forms__message-id">
+              <span class="forms__title">Message:</span>
+              <textarea class="forms__input forms__input--message" id="forms__message-id" name="message"></textarea>
+            </label>
+          </fieldset>
+          <button class="forms__btn" type="submit">Submit</button>
+        </div>
+      </form>
+
+      <section class="notification">
+        <div class="notification__text-wrapper">
+          <div class="notification__text-inner">
+            <h2 class="notification__title">Lorem ipsum</h2>
+            <p class="notification__text"></p>
+          </div>
+          <button class="notification__btn" type="button"><span class="notification__btn-symbol">&#10006;</span></button>
+        </div>
+
+        <div class="notification__control-panel-wrapper">
+          <label class="notification__checkbox-item">
+            <input class="notification__input" type="checkbox" name="tips" value="1">
+            <span class="notification__input-text">Disable Tips</span>
+          </label>
+          <div class="notification__slider-conteiner">
+            <button class="notification__btn-slider  notification__btn-slider--prev">&lt;</button>
+            <button class="notification__btn-slider  notification__btn-slider--next">&gt;</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <p class="page-footer__text">COPYRIGHT ORANGE RABBIT - DESIGNED BY JAKE BHATT.</p>
+      </div>
+    </footer>
+    <script src="js/notification.js"></script>
+  </body>
+</html>
